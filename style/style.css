@@ -1,0 +1,115 @@
+@import "/style/root.css";
+@import "/style/media.css";
+
+body {
+    background-color: var(--Cream);
+    font-size: var(--Fsize);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: var(--White);
+    border-radius: .5rem;
+    margin: 1rem;
+    
+}
+.content{
+    max-width: 35rem;
+}
+
+.desktop{
+    display: none;
+}
+
+.mobile {
+    width: 100%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.text{
+   padding: 1rem  1.1rem;
+}
+
+.text h5 {
+    text-transform: uppercase;
+    letter-spacing: .45rem;
+    font-size: .8rem;
+    font-family: var(--Family1);
+    font-weight: var(--W1);
+    color: var(--grayishblue);
+}
+
+.text h1 {
+    font-family: var(--Family2);
+    font-weight: var(--W2);
+    color: var(--darblue);
+    font-size: 2.1rem;
+    line-height: 2.3rem;
+}
+
+.discr{
+    font-family: var(--Family1);
+    font-weight: var(--W1);
+    color: var(--grayishblue);
+    line-height: 1.4rem;
+    
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: .8rem ;
+    margin-bottom: .2rem;
+    padding: 1rem 0;
+
+}
+
+.new-price{
+    font-family: var(--Family2);
+    font-weight: var(--W2);
+    color: var(--Darkcyan);
+    padding-right: 1rem;
+    font-size: 25px;
+}
+
+.oldprice{
+    font-family: var(--Family1);
+    font-weight: var(--W1);
+    color: var(--grayishblue);
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: .5rem;
+    gap: 1rem;
+    background-color:var(--Darkcyan) ;
+    border: 1px solid var(--Darkcyan);
+    color: var(--White);
+    font-family: var(--Family2);
+    font-weight: var(--W1);
+    font-size: 1rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    
+
+   
+}
+
+.button:hover{
+    background-color: var(--cyan);
+    border-color: var(--cyan);
+}
+
+
+
+

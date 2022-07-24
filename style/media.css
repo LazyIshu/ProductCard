@@ -1,0 +1,32 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        
+        width: 36rem;
+    }
+    
+    .content {
+        display: flex;
+        
+       
+    }
+
+    .content .desktop {
+        display: block;
+        height: 100%;
+        width: 18rem;
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .text {
+        margin-left: 2rem;
+
+    }
+   
+    
+    
+}

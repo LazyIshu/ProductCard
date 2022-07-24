@@ -1,0 +1,14 @@
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --darblue: hsl(212, 21%, 14%);
+    --grayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --cyan: hsl(158 52% 27%);
+    --Fsize: 14px;
+    --Family1: 'Montserrat', sans-serif;
+    --W1: 500;
+    --W2: 700;
+    --Family2: 'Fraunces', serif;
+
+}
