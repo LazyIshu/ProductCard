@@ -1,5 +1,5 @@
-@import "/style/root.css";
-@import "/style/media.css";
+@import "./style/root.css";
+@import "./style/media.css";
 
 body {
     background-color: var(--Cream);
